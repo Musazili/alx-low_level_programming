@@ -9,16 +9,16 @@ int print_sign(int n)
 if (n > 0)
 {
 return (1);
-_putchar('+', 1);
+_putchar('+');
 }
 if (n < 0)
 {
 return (-1);
-_putchar('-', '/');
+_putchar('/');
 }
 else
 {
 return (0);
-_putchar(0, 0);
+_putchar(0);
 }
 }
