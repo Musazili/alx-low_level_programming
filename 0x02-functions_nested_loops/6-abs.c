@@ -10,5 +10,5 @@ if (r > 0)
 return (r);
 else
 {
-return (n * -1);
+return (r * -1);
 }
