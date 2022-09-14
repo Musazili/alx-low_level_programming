@@ -2,7 +2,7 @@
 /**
  * times_table - print a times table
  *
- * Return: void
+ * Return: returns void
  */
 void times_table(void)
 {
