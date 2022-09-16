@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * print_line -  draws a straight line in the terminal
- * @n: number of times to be printed
- * Return:0
+ *print_line - prints straight line
+ *@n: number if times to print _
+ *Return: returns void
  */
-void print_line(int n);
+
+void print_line(int n)
 {
 	int i;
 
