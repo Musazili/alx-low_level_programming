@@ -6,9 +6,9 @@
  */
 void print_rev(char *s)
 {
-	int i, j;
+	int i, j, length;
 
-	for (i = 0; j = length - 1, i < length; i++, j--)
+	for (i = 0; j = length - 1; i < length; i++, j--)
 	{
 		_putchar(s[i]);
 	}
