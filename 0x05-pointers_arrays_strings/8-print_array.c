@@ -3,16 +3,18 @@
 /**
  * print_array - entry point
  * @n: number of element
- * @*a: integer
+ * @a: integer
  * Return: 0
  */
 void print_array(int *a, int n)
 {
-	int s;
+	int i;
 
-	for (s = 0; s < n; s++)
+	for (i = 0; s < n; i++)
 	{
-		printf("%d, ", a[s]);
+		printf("%d", a[i]);
+		if (i != n - 1)
+			printf(", ");
 	}
 	printf("\n");
 }
