@@ -6,13 +6,14 @@
  */
 char *string_toupper(char *n)
 {
-	int i = 0;
+	int i;
 
-	while   (*(n + i) != '\0';)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if ((*(n + i) >= 97) && (*(n + i) >= 122))
-			*(n + i) = *(n + i) - 32;
-		i++;
+		if (n[i] >= 97 && n[i] <= 122)
+		{
+			n[i] = n[i] - 32;
+		}
 	}
 	return (n);
 }
