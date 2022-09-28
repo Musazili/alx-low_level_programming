@@ -6,6 +6,6 @@
  */
 int factorial(int n)
 {
-	for (n > 1)
+	for (n == 1)
 		return (n * factorial(n - 1));
 }
