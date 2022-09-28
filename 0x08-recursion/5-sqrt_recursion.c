@@ -6,8 +6,22 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0.0)
+	return (_sqrt(n, 1));
+}
+
+/**
+ * _sqrt - square root
+ * @n: numer
+ * @i: iterator
+ * Return: number
+ */
+int _sqrt(int n, int i)
+{
+	int j = i * i;
+
+	if (j > n)
 		return (-1);
-	else if (n == 0)
-		return (_sqrt_recursion(n + 1));
+	if (j == n)
+		return (i);
+		return (_sqrt(n + 1));
 }
