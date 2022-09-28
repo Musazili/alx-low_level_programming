@@ -2,11 +2,11 @@
 /**
  * is_prime_number - entry point
  * @n: number
- * Return: 0
+ * Return: integer
  */
 int is_prime_number(int n)
 {
-	return (check_prime(n, n - 1));
+	return (check_prime(n, 1));
 }
 
 /**
