@@ -6,11 +6,21 @@
  */
 int is_prime_number(int n)
 {
-	int i = 2;
+	return (check_prime(n, 1));
+}
 
+/**
+ * check_prime - checks prime numbers
+ * @n: number
+ * @i: iterator
+ * Return: 1 or 0
+ */
+int check_prime(int n, int i)
+{
 	if (n <= 1)
 		return (0);
-	if (n >= 2 && n <= 3)
-		return (1);
-	return (is_prime_number(n, i));
+	if (n % i == 0  && i > 1)
+		return (0);
+	if ((n / i) < i)
+	return (check_prime(n, i + 1));
 }
