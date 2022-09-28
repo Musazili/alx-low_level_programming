@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int factorial - entry point
+ * factorial - entry point
  * @n: number
  * Return: 0
  */
