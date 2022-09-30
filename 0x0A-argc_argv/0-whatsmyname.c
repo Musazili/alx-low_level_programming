@@ -7,6 +7,6 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("my name: %s\n", argv[0]);
 	return (0);
 }
