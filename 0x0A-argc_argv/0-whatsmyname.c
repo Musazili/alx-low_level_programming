@@ -8,5 +8,5 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("what is my name: %s\n", argv[0]);
+	printf("%d\n", argv[0]);
 }
