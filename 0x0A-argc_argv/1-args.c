@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc - 1; i++)
 	{
-		printf("argv[%d]:%s\n", *argv[i]);
+		printf("argv[%d]:%s\n", i, argv[i]);
 	}
 	return (0);
 }
