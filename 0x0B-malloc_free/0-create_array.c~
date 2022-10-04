@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * create_array - entry point
+ *
+ *
+ * Return: 0
+ */
+char *create_array(unsigned int size, char c)
+{
