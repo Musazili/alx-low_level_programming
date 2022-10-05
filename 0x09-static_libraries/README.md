@@ -1,1 +1,0 @@
-startic libraries
